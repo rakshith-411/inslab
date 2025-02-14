@@ -4,13 +4,13 @@ This repository provides Python implementations of fundamental classical cryptog
 
 🔢 Implemented Ciphers
 
-Caesar Cipher 🏛️ - A basic substitution cipher that shifts letters by a fixed number of positions in the alphabet.
+Caesar Cipher  - A basic substitution cipher that shifts letters by a fixed number of positions in the alphabet.
 
-Monoalphabetic Cipher 🔄 - A substitution method where each letter in the plaintext is replaced with a corresponding letter from a predetermined shuffled alphabet.
+Monoalphabetic Cipher  - A substitution method where each letter in the plaintext is replaced with a corresponding letter from a predetermined shuffled alphabet.
 
-Playfair Cipher 🔠 - A digraph-based encryption method that encodes pairs of letters using a structured 5x5 matrix.
+Playfair Cipher  - A digraph-based encryption method that encodes pairs of letters using a structured 5x5 matrix.
 
-Hill Cipher 📊 - A polygraphic cipher leveraging matrix multiplication for encryption.
+Hill Cipher  - A polygraphic cipher leveraging matrix multiplication for encryption.
 
 ⚙️ Prerequisites
 
