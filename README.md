@@ -8,6 +8,8 @@ This repository contains Python implementations of various classical cryptograph
 2. **Monoalphabetic Cipher** - A substitution cipher where each letter in the plaintext is replaced with a corresponding letter from a fixed shuffled alphabet.
 3. **Playfair Cipher** - A digraph substitution cipher that encrypts pairs of letters using a 5x5 matrix.
 4. **Hill Cipher** - A polygraphic substitution cipher based on matrix multiplication.
+5. **Vigenère Cipher** - A polyalphabetic substitution cipher that uses a keyword to determine the shift for each letter in the plaintext.
+6. **Feistel Cipher** - A symmetric structure used in many block ciphers , where data is split into halves and repeatedly transformed through a series of rounds.
 
 ## Prerequisites
 
@@ -46,6 +48,12 @@ Each cipher program is a standalone script. Follow these steps to run them:
 
    ```sh
    python hill_cipher.py
+   ```
+   ```sh
+   python feistel_cipher.py
+   ```
+   ```sh
+   python vignere_cipher.py
    ```
 
 3. **Follow the on-screen instructions** to encrypt or decrypt messages using the respective ciphers.
