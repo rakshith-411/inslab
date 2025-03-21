@@ -10,6 +10,7 @@ This repository contains Python implementations of various classical cryptograph
 4. **Hill Cipher** - A polygraphic substitution cipher based on matrix multiplication.
 5. **Vigenère Cipher** - A polyalphabetic substitution cipher that uses a keyword to determine the shift for each letter in the plaintext.
 6. **Feistel Cipher** - A symmetric structure used in many block ciphers , where data is split into halves and repeatedly transformed through a series of rounds.
+   
 
 ## Prerequisites
 
@@ -54,6 +55,15 @@ Each cipher program is a standalone script. Follow these steps to run them:
    ```
    ```sh
    python vignere_cipher.py
+   ```
+   ```sh
+   python helman.py
+   ```
+   ```sh
+   python rsa.py
+   ```
+   ```sh
+   python Des.py
    ```
 
 3. **Follow the on-screen instructions** to encrypt or decrypt messages using the respective ciphers.
